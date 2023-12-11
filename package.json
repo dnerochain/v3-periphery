@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-periphery"
+    "url": "https://github.com/dnerochain/v3-periphery"
   },
   "files": [
     "contracts/base",
@@ -32,7 +32,7 @@
     "@openzeppelin/contracts": "3.4.2-solc-0.7",
     "@uniswap/lib": "^4.0.1-alpha",
     "@uniswap/v2-core": "^1.0.1",
-    "@uniswap/v3-core": "^1.0.0",
+    "@uniswap/v3-core": "git+https://github.com/dnerochain/v3-core.git",
     "base64-sol": "1.0.1"
   },
   "devDependencies": {
