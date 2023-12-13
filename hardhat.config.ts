@@ -7,7 +7,7 @@ import 'hardhat-watcher'
 const LOW_OPTIMIZER_COMPILER_SETTINGS = {
   version: '0.7.6',
   settings: {
-//    evmVersion: 'istanbul',
+    //    evmVersion: 'istanbul',
     optimizer: {
       enabled: true,
       runs: 2_000,
@@ -21,7 +21,7 @@ const LOW_OPTIMIZER_COMPILER_SETTINGS = {
 const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
   version: '0.7.6',
   settings: {
-//    evmVersion: 'istanbul',
+    //    evmVersion: 'istanbul',
     optimizer: {
       enabled: true,
       runs: 1_000,
@@ -35,7 +35,7 @@ const LOWEST_OPTIMIZER_COMPILER_SETTINGS = {
 const DEFAULT_COMPILER_SETTINGS = {
   version: '0.7.6',
   settings: {
-//    evmVersion: 'istanbul',
+    //    evmVersion: 'istanbul',
     optimizer: {
       enabled: true,
       runs: 1_000_000,
@@ -47,7 +47,7 @@ const DEFAULT_COMPILER_SETTINGS = {
 }
 
 export default {
-   networks: {
+  networks: {
     hardhat: {
       allowUnlimitedContractSize: false,
     },
@@ -59,11 +59,11 @@ export default {
       url: `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
   },
-//  etherscan: {
-    // Your API key for Etherscan
-    // Obtain one at https://etherscan.io/
-//    apiKey: process.env.ETHERSCAN_API_KEY,
-//  }
+  //  etherscan: {
+  // Your API key for Etherscan
+  // Obtain one at https://etherscan.io/
+  //    apiKey: process.env.ETHERSCAN_API_KEY,
+  //  }
   solidity: {
     compilers: [DEFAULT_COMPILER_SETTINGS],
     overrides: {
